@@ -5,7 +5,10 @@
   "version": "1.0.0",
   "description": "Extension to add multiple github accounts to see the contribution summary of said accounts",
   "homepage": "https://github.com/ElJijuna/github-summary-pilmee#readme",
-  "shell-versions": [48, 49],
+  "shell-versions": [
+    48,
+    49
+  ],
   "scripts": {
     "build": "./scripts/build.sh",
     "build:dev": "./scripts/build.sh --unsafe-reload",
@@ -28,5 +31,6 @@
     "prettier": "^3.2.5",
     "typescript": "^5.5.2",
     "typescript-eslint": "^7.14.1"
-  }
+  },
+  "author": "pilmee <pilmee@gmail.com> (https://github.com/ElJijuna)"
 }
